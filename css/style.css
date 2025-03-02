@@ -1,0 +1,71 @@
+.yellow {
+    color: yellow;
+}
+
+#greycol {
+    color: grey;
+}
+
+.text-box div p {
+    color: red;
+}
+
+.text-box h3:first-child {
+    color: pink;
+}
+
+.text-box div + div + h3 + p {
+    color: green;
+}
+
+a {
+    background-color: gray;
+}
+
+a:hover {
+    color: red;
+    background-color: yellow;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: white;
+}
+
+a:focus {
+    color: green;
+}
+
+a:not([href="./index.html"]) {
+    color: violet;
+}
+
+.list {
+    color: green;
+}
+
+.list-item:first-child {
+    color: white;
+    background-color: tomato;
+}  
+
+.list-item:last-child {
+    color: red;
+}
+
+.list-item:nth-child(3) {
+    color: blue;
+    background-color: green;
+}
+
+.list-item:nth-child(even) {
+    color: violet;
+    background-color: red;
+}
+
+.list-item:not(:last-child) {
+    font-size: 25px;
+}
